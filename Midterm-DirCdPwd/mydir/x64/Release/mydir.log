@@ -1,0 +1,6 @@
+﻿  mydir.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 238 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  mydir.vcxproj -> C:\Users\vboxuser\source\repos\Midterm-DirCdPwd\x64\Release\mydir.exe
