@@ -85,6 +85,9 @@ Then run the tools as shown below.
 mypwd
 
 Prints the current working directory. : mypwd.exe
+Example Output: 
+
+C:\Users\vboxuser\source\repos\Midterm-DirCdPwd\x64\Release
 
 mycd
 
@@ -92,6 +95,9 @@ Changes the current directory for the mycd.exe process and then prints the resul
 mycd.exe C:\Windows
 mycd.exe ..
 mycd.exe System32
+
+Example Output:
+Current directory is now: C:\Windows
 
 mydir
 
@@ -101,6 +107,24 @@ mydir.exe /a
 mydir.exe /s
 mydir.exe /q
 mydir.exe C:\Windows /a /s /q
+
+Example output:
+
+Directory of .
+
+Created           Attrs   Size          Name
+--------------------------------------------------------------------------
+03/25/2026 18:33  ----A   17408         mycd.exe
+03/25/2026 18:33  ----A   27136         mydir.exe
+03/25/2026 18:33  ----A   14848         mypwd.exe
+
+Directory of /q
+
+Created           Attrs   Size          Owner                         Name
+--------------------------------------------------------------------------
+03/25/2026 18:33  ----A   17408         WINDOWS\vboxuser              mycd.exe
+03/25/2026 18:33  ----A   27136         WINDOWS\vboxuser              mydir.exe
+03/25/2026 18:33  ----A   14848         WINDOWS\vboxuser              mypwd.exe
 
 After testing the files myself I concluded that
 
