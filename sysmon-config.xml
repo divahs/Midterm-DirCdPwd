@@ -1,0 +1,10 @@
+<Sysmon schemaversion="4.90">
+	<HashAlgorithms>SHA256</HashAlgorithms>
+	<EventFiltering>
+		<ProcessCreate onmatch="include">
+			<Image condition="end with">mydir.exe</Image>
+			<Image condition="end with">mycd.exe</Image>
+			<Image condition="end with">mypwd.exe</Image>
+		</ProcessCreate>
+	</EventFiltering>
+</Sysmon>
